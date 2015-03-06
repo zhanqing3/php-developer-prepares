@@ -1,9 +1,7 @@
 # PHP 开发者实践
 PHP Developer Prepares
 
-坚持了5年的创业项目决定结束了（行业垂直搜索方向，理想很美好、现实很骨感），作为 2000 年那波没混好的草根站长 & 09年这波没被风吹起来的小型互联网公司的技术合伙人，个人基本见证了这几年 PHP 环境的发展（当然主要归功于互联网创业项目的大爆发），感受了一些 PHP 团队和从业者的现状；同时，我们自身在 PHP 研发团队组建过程中也遇到了不少问题，一直想把创业过程中遇到的这些团队实践相关问题整理、总结一下，不过，完美主义(重度拖延症患者)害死人。。。
-
-春节转眼刷完了，痛定思痛，又逢娃哭的厉害（夜哭郎。。。谁带谁知道 :-( ），小爆一夜，算是搞了个初始版本出来，欢迎大家拍砖 & 加入！
+坚持了 5 年的创业项目决定结束了（行业垂直搜索方向，理想很美好、现实很骨感），作为 2000 年那波没混好的草根站长 & 09 年这波没被风吹起来的小型互联网公司的技术合伙人，个人基本见证了这几年 PHP 环境的发展（当然主要归功于互联网创业项目的大爆发），感受了一些 PHP 团队和从业者的现状；同时，我们自身在 PHP 研发团队组建过程中也遇到了不少问题，一直想把创业过程中遇到的这些团队实践相关问题整理、总结一下，目前只是个初始版本，欢迎大家拍砖 & 加入！
 
 技术的发展日新月异，我会持续维护、跟进这个项目，欢迎各位有兴趣的朋友 [提交建议、问题 - Issue](https://github.com/zacao/php-developer-prepares/issues) 或 [贡献、分享 - Pull Request](https://github.com/zacao/php-developer-prepares/pulls)。本项目在 Github 上维护，欢迎参与：[https://github.com/zacao/php-developer-prepares](https://github.com/zacao/php-developer-prepares)。
 
@@ -14,7 +12,7 @@ PHP Developer Prepares
   * 本文排版遵循 [文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 规范
   * 开发过程中遇到的绝大多数问题实际上都可以通过搜索引擎找到，关于搜索引擎使用技巧，请参考  [如何用好 Google 等搜索引擎？](http://www.zhihu.com/question/20161362)
   * 开发过程中遇到问题在论坛、社区中提问也是很常见的情况，如何尽可能让自己得到满意的答复，请参考 [提问的智慧 - English](http://www.catb.org/~esr/faqs/smart-questions.html) 或 [提问的智慧 - 中文](http://www.beiww.com/doc/oss/smart-questions.html)
-  * 因为关于如何使用 PHP 语言本身相关资料已有很多，本文将尽量不涉及 PHP 语言本身并优先引用现有资料，主要围绕关心 PHP 项目开发技巧和具体实践，通过相关工具和经验的分享，大家在项目中更好的使用 PHP 技术。
+  * 因为关于如何使用 PHP 语言本身相关资料已有很多，本文将尽量不涉及 PHP 语言本身、且优先引用已有资料，主要围绕关心 PHP 项目开发技巧和具体实践，通过相关工具和经验的分享，使大家在项目中更好的使用 PHP 技术。
 
 
 ## 在线阅读
