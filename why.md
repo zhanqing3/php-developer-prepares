@@ -26,7 +26,7 @@ DiaoSi 互联网创业起步，
 
 ## 资源
 
- * [PHP: The Right Way](https://github.com/codeguy/php-the-right-way)
+ * [PHP: The Right Way](https://github.com/codeguy/php-the-right-way), [中文版](http://laravel-china.github.io/php-the-right-way/)
  * [PHP Best Practices](https://phpbestpractices.org/)
  * [Morden PHP](http://shop.oreilly.com/product/0636920033868.do), PHP: The Right Way 作者新作
  * [Awesome PHP](https://github.com/ziadoz/awesome-php)
