@@ -23,9 +23,9 @@
 
 关于 Linux 发行版的选择问题（好吧，又是坑。。。），[不过从服务器用户数量来讲， Redhat 系、SUSE 系 与 Ubuntu 系占了多数][linux_market_share] 。相对比而言，个人更喜欢 Redhat系的 CentOS（关于 Fedora, Redhat 和 CentOS 三者的关系可以 [参考这里][diff_between_fedora_redhat_centos] ），个人觉得 CentOS 跑服务器相对稳定些（受鸟哥影响较深）、系统本身也干净简单，缺点是很多包官方源里面没有，就算是 EPEL 里面也没多少东西，因此对于 LA/NMP 开发，这里推荐下 EPEL源 + IUS 源，具体的配置方法可以 [参考这里][ius_client_configuration] 。
 
-[linux_market_share]: "http://searchdatacenter.techtarget.com/feature/Compare-popular-Linux-distributions-for-servers" "TechTarget: Compare popular Linux distributions for server (May 2014)"
-[diff_between_fedora_redhat_centos]: "https://danielmiessler.com/study/fedora_redhat_centos/" "The Difference Between Fedora, Redhat, and CentOS"
-[ius_client_configuration]: "https://iuscommunity.org/pages/IUSClientUsageGuide.html#configuration" "CentOS: IUS Client Configuration Guide"
+[linux_market_share]: http://searchdatacenter.techtarget.com/feature/Compare-popular-Linux-distributions-for-servers "TechTarget: Compare popular Linux distributions for server (May 2014)"
+[diff_between_fedora_redhat_centos]: https://danielmiessler.com/study/fedora_redhat_centos/ "The Difference Between Fedora, Redhat, and CentOS"
+[ius_client_configuration]: https://iuscommunity.org/pages/IUSClientUsageGuide.html#configuration "CentOS: IUS Client Configuration Guide"
 
 
 ### 一些 Linux 命令/工具
