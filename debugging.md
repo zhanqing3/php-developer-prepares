@@ -23,6 +23,8 @@
      * XHProf & XHGui
      * Xdebug profile & valgrind
      * PHPMD - PHP Mess Detector
+     * [phptrace](https://github.com/Qihoo360/phptrace)
+         
  * 日志记录与处理 (Logging)
      * Monolog
      * Splunk
