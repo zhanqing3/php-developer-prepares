@@ -36,15 +36,16 @@
 * 进程相关
     * at, cron, **crontab**, kill, killall, pgrep, **ps**, time, nohup, **screen**（远程会话管理）, **supervisord**（进程守护神）
 * 网络
-    * dig, host, ifconfig, netstat, nslookup, ping, route, traceroute, **iptables**， wget, **curl**
+    * dig, host, ifconfig, netstat, nslookup, ping, route, traceroute, **iptables**, wget, **curl**
 * 压缩
     * **tar**, gzip, unzip
 * 远程
     * ssh, scp, sftp, **rsync**（文件同步）
 * 系统状况
     * uname, free, df, du, top, **htop**（比 top 好用多了）, iftop, iotop, iostat
+    * [**Linux Perf Observability Tools Map**](http://www.brendangregg.com/Perf/linux_observability_tools.png) - 这张图很好的罗列了各种 Linux 性能监测工具，推荐
 * 其他
-    * **man**, alias, **ab**（简单性能测试）, service, chkconfig
+    * **man** (查阅命令帮助信息), alias, **ab**（简单性能测试）, service, chkconfig, **ulimit**, **sysctl**
 
 ## 扩展阅读：
 
