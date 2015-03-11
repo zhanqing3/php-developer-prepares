@@ -1,7 +1,6 @@
 # Summary
-
 * 前言
-    * [源起](why.md), Why have this?
+    * [源起](preface/why.md), Why have this?
 * 环境准备
     * [科学上网](cross-the-gfw.md), Cross the GFW
     * [开发环境](environment.md), Battle of OS, IDEs and Editors
