@@ -1,5 +1,5 @@
 # Summary
-* 前言
+* [前言](preface/README.md)
     * [源起](preface/why.md), Why have this?
 * 环境准备
     * [科学上网](cross-the-gfw.md), Cross the GFW
