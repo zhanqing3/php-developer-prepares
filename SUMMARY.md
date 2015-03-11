@@ -1,9 +1,10 @@
 # Summary
 * [前言](preface/README.md)
     * [源起](preface/why.md), Why have this?
-* 环境准备
-    * [科学上网](cross-the-gfw.md), Cross the GFW
-    * [开发环境](environment.md), Battle of OS, IDEs and Editors
+* [开发环境](environment/README.md)
+    * [科学上网](environment/cross-the-gfw.md), Cross the GFW
+    * [操作系统](environment/operating-system.md), Battle of Operating Systems
+    * [一致性开发环境](environment/consistent-environment.md), Consistent Development Environment
 * 设计&开发
     * [开发规范](rules.md), Development Rules
     * [设计编码](coding.md), Design & Coding
