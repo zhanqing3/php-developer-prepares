@@ -6,6 +6,7 @@
     * [操作系统](environment/operating-system.md), Battle of Operating Systems
     * [一致性开发环境](environment/consistent-environment.md), Consistent Development Environment
     * [LA/NMP 技术介绍](environment/lanmp-stack.md), LA/NMP Stack Basis Introduction
+    * [网站系统架构](environment/website-architecture.md), Architecture for LA/NMP Websites
 * 设计&开发
     * [开发规范](rules.md), Development Rules
     * [设计编码](coding.md), Design & Coding
