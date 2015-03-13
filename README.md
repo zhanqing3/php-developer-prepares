@@ -6,6 +6,9 @@ PHP Developer Prepares
 技术的发展日新月异，我会持续维护、跟进这个项目，欢迎各位有兴趣的朋友 [提交建议、问题 - Issue](https://github.com/zacao/php-developer-prepares/issues) 或 [参与贡献、分享 - Pull Request](https://github.com/zacao/php-developer-prepares/pulls)。
 
 * 本项目排版遵循 [文案排版指北](https://github.com/sparanoid/chinese-copywriting-guidelines) 和 [Stack Overflow Markdown](http://stackoverflow.com/editing-help) 规范
+* 本项目使用了 GitBook 并已发布在 [GitBook.com](http://ryancao.gitbooks.io/php-developer-prepares/content/) 上，关于如何使用 Gitbook 编写、生成、发布一本在线图书，请移步 [GitBook Documentation](http://help.gitbook.com/) 或 [Gitbook 使用入门 - 中文](http://wanqingwong.com/gitbook-zh)
+    > GitBook.com 是一个很优秀的社区，上面有很多优秀的作者自出版自己的著作，就好像 [Leanpub](https://leanpub.com/)
+    > Gitbook 是 GitBook.com 提供的一个开源的基于 Node.js 开发的配套工具 - [Github 地址](https://github.com/GitbookIO/gitbook)
 * 开发过程中遇到的绝大多数问题实际上都可以通过搜索引擎找到，关于搜索引擎使用技巧，请参考  [如何用好 Google 等搜索引擎？](http://www.zhihu.com/question/20161362)
 * 开发过程中遇到问题在论坛、社区中提问也是很常见的情况，如何尽可能让自己得到满意的答复，请参考 [提问的智慧 - English](http://www.catb.org/~esr/faqs/smart-questions.html) 或 [提问的智慧 - 中文](http://www.beiww.com/doc/oss/smart-questions.html)
 * 因为关于如何使用 PHP 语言本身相关资料已有很多，本文将尽量不涉及 PHP 语言本身、且优先引用已有资料，主要围绕关心 PHP 项目开发技巧和具体实践，通过相关工具和经验的分享，使大家在项目中更好的使用 PHP 技术。
