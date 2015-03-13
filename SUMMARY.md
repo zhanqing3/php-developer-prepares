@@ -11,6 +11,7 @@
     * [网站系统架构](1-lanmp/website-architecture.md), Architecture for LA/NMP Websites
 * [一致性开发环境](2-development-environment/README.md)
     * [虚拟化技术](2-development-environment/virtualization.md), Virtualization
+    * [集成环境安装包](2-development-environment/amp-packages.md), AMP packages
     * [编辑器](2-development-environment/editors.md), Editors and IDEs
 * [设计 & 开发](3-development/README.md)
     * [开发规范](3-development/rules.md), Development Rules
@@ -26,3 +27,4 @@
 * [PHP Internals](5-php-internals/README.md)
     * [PHP 扩展开发](5-php-internals/php-extension.md), PHP Extension Development
     * [PHP 虚拟机](5-php-internals/php-vm.md), PHP Virtual Machine
+
