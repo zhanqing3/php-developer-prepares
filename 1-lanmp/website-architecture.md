@@ -1,6 +1,8 @@
 # 网站系统架构
 
+一个成熟的大型网站（如百度、淘宝、京东等）的系统架构并不是开始设计就具备完整的高性能、高可用、可扩展、安全等特性，它总是随着用户量的增加、业务功能的扩展逐渐演变完善的，在这个过程中，开发模式、技术架构、设计思想也会发生很大的变化，技术团队也从几个人发展到一个部门甚至产品线。成熟的系统架构是由小及大、从无到有，随着业务发展渐进式完善、发展出来的，并不是一开始就全部开发好了的。
 
+下面将简要介绍广泛运行在大型网站系统架构中一些常见的技术和手段。
 
 ## 内容缓存加速
 
@@ -27,7 +29,10 @@
 >
 > 来源：[**Nginx/LVS/HAProxy 负载均衡软件的优缺点详解 by 博客教主 @**](http://www.ha97.com/5646.html)
 
-* [**Keepalived**](http://www.keepalived.org/) - Keepalived 主要用来防止单点故障（单点故障是指一旦某一点出现故障就会导致整个系统架构不可用）的发生
+* [**Keepalived**](http://www.keepalived.org/) - Keepalived 主要用来防止**单点故障**（单点故障是指一旦某一点出现故障就会导致整个系统架构不可用）的发生
+
+    keepalived 是基于 VRRP 协议（[VRRP 协议介绍](http://blog.chinaunix.net/uid-127037-id-2919520.html)）的，请一定先了解 VRRP 协议后再进行配置。keepalived 可以把多台设备虚拟出一个 IP，并自动在故障节点与备用节点之间实现 failover 切换。这样我们配置两台货多台lvs调度节点，然后配置好 keepalived 就可以做到 lvs 调度节点出现故障后，自动切换到备用调度节点。（同样适用于 MySQL，Nginx 等）
+
     - [《keepalived 权威指南》](http://isadba.com/upload/keepalived%20document.pdf)
 * **Nginx**
 * [**HAProxy**](http://www.haproxy.org/)
@@ -37,6 +42,7 @@
 ## 分布式缓存系统
 * [**Memcached**](http://memcached.org/)
 * [**Redis**](http://redis.io/)
+    * [**SSDB**](https://github.com/ideawu/ssdb) - A fast NoSQL database, an alternative to Redis
 
 
 ## 分布式文件系统
