@@ -22,6 +22,7 @@
     * [文档](3-development/documentation.md), Doucumentation
 * [过程 & 实践](4-development-process/README.md)
     * [开发过程](4-development-process/life-cycle-model.md), Development Process, Life Cycle Model
+    * [版本管理](4-development-process/version-control.md), Version Control
     * [持续集成](4-development-process/ci.md), Continue Integration
     * [上线部署](4-development-process/deployment.md), Deployment
 * [PHP Internals](5-php-internals/README.md)
