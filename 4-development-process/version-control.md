@@ -97,6 +97,7 @@ svn copy url://repos/ProjectA/trunk url://repos/ProjectA/tags/tagname -m “Crea
 * [Book: Mercurial: The Definitive Guide](http://hgbook.red-bean.com/)
 * [Learning Mercurial in Workflows](http://mercurial.selenic.com/guide)
 * [Blog: An Introduction to Hgflow](https://andy.mehalick.com/2011/12/24/an-introduction-to-hgflow)
+* [Blog: A Guide to Branching in Mercurial](http://stevelosh.com/blog/2009/08/a-guide-to-branching-in-mercurial/)
 
 ## 相关工具
 
