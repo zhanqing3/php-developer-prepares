@@ -13,7 +13,10 @@ PHP Developer Prepares
 
 
 * 开发过程中遇到的绝大多数问题实际上都可以通过搜索引擎找到，关于搜索引擎使用技巧，请参考  [如何用好 Google 等搜索引擎？](http://www.zhihu.com/question/20161362)
-* 开发过程中遇到问题在论坛、社区中提问也是很常见的情况，如何尽可能让自己得到满意的答复，请参考 [提问的智慧 - English](http://www.catb.org/~esr/faqs/smart-questions.html) 或 [提问的智慧 - 中文](http://www.beiww.com/doc/oss/smart-questions.html)
+* 开发过程中遇到问题在论坛、社区中提问是很常见的情况，如何让他人快速理解你的问题、同时自己如何在提问中学习成长，推荐阅读： [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)，[提问的智慧 - 中文版](http://doc.zengrong.net/smart-questions/cn.html) 或 [提问的智慧 - 图片版](./assets/smart-questions-cn.jpg)
+
+    > 「《提问的智慧》就是一个敲门砖，它把黑客间的礼仪和准则明白地写下来。它会让你了解到一个事实，为什么那些看起来很牛的人几乎从不提问，似乎他们一进入这个行业就是牛人了。不是的，他们也有问题，但是通常在提问之前就自己解决了；不是因为他们本来就懂得怎么解决，而是解决问题的经历让他们成为牛人；最终，你只会看到网络上多了一篇文章：关于解决XXX问题的方案。」-- Rei
+
 * 因为关于如何使用 PHP 语言本身相关资料已有很多，本文将尽量不涉及 PHP 语言本身、且优先引用已有资料，主要围绕关心 PHP 项目开发技巧和具体实践，通过相关工具和经验的分享，使大家在项目中更好的使用 PHP 技术。
 
 ----------
