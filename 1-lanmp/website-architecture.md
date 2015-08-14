@@ -6,13 +6,13 @@
 
 ## 内容缓存加速
 
-> ![缓存代理服务器程序对比](caching-proxy-server-comparison.jpg)
+> ![缓存代理服务器程序对比](../assets/caching-proxy-server-comparison.jpg)
 >
 > 来源：[**又拍云存储 - CDN 架构探索 by 邵海洋 @2014**](http://www.infoq.com/cn/presentations/platform-technology-selection-in-software-development-process)
 
 - [**Squid**](http://www.squid-cache.org/) - 功能全而大，磁盘缓存，适合于各种静态的文件缓存（截止至目前为止相对使用最为广泛）
 - [**Varnish**](https://www.varnish-cache.org/) - 内存缓存（少数人的玩具），性能强，对小文件如 CSS, JavaScript, 小图片之类的支持很棒
-- [**ATS（Apache Traffic Server**）](http://trafficserver.apache.org/) - 磁盘/内存缓存，性能强，支持插件开发
+- [**ATS - Apache Traffic Server**](http://trafficserver.apache.org/) - 磁盘/内存缓存，性能强，支持插件开发
 - **Nginx** - 代理功能只是 Nginx 的一个模块功能，得益于 Nginx 强大的性能，目前适合缓存少量页面资源
 
 
@@ -29,92 +29,109 @@
 >
 > 来源：[**Nginx/LVS/HAProxy 负载均衡软件的优缺点详解 by 博客教主 @**](http://www.ha97.com/5646.html)
 
-* [**Keepalived**](http://www.keepalived.org/) - Keepalived 主要用来防止**单点故障**（单点故障是指一旦某一点出现故障就会导致整个系统架构不可用）的发生
+- [**Keepalived**](http://www.keepalived.org/) - Keepalived 主要用来防止**单点故障**（单点故障是指一旦某一点出现故障就会导致整个系统架构不可用）的发生
 
     keepalived 是基于 VRRP 协议（[VRRP 协议介绍](http://blog.chinaunix.net/uid-127037-id-2919520.html)）的，请一定先了解 VRRP 协议后再进行配置。keepalived 可以把多台设备虚拟出一个 IP，并自动在故障节点与备用节点之间实现 failover 切换。这样我们配置两台货多台lvs调度节点，然后配置好 keepalived 就可以做到 lvs 调度节点出现故障后，自动切换到备用调度节点。（同样适用于 MySQL，Nginx 等）
 
     - [《keepalived 权威指南》](http://isadba.com/upload/keepalived%20document.pdf)
-* **Nginx**
-* [**HAProxy**](http://www.haproxy.org/)
-* [**LVS(Linux Virtual Server)**](http://www.linuxvirtualserver.org/) - 淘宝正明（章文嵩大大）在国防科技大学读博期间的作品，是国内最早的开源软件之一
+- **Nginx**
+- [**HAProxy**](http://www.haproxy.org/)
+- [**LVS(Linux Virtual Server)**](http://www.linuxvirtualserver.org/) - 淘宝正明（章文嵩大大）在国防科技大学读博期间的作品，是国内最早的开源软件之一
 
 
 ## 分布式缓存系统
-* [**Memcached**](http://memcached.org/)
-* [**Redis**](http://redis.io/)
-    * [**SSDB**](https://github.com/ideawu/ssdb) - A fast NoSQL database, an alternative to Redis
+- [**Memcached**](http://memcached.org/)
+- [**Redis**](http://redis.io/)
+    - [**SSDB**](https://github.com/ideawu/ssdb) - A fast NoSQL database, an alternative to Redis
 
 
 ## 分布式文件系统
-* [**FastDFS**](https://code.google.com/p/fastdfs)
-* [**MogileFS**](https://github.com/mogilefs/)
-* [**HDFS**](http://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
+- [**FastDFS**](https://code.google.com/p/fastdfs)
+- [**MogileFS**](https://github.com/mogilefs/)
+- [**HDFS**](http://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
 
 
 ## MySQL 数据库集群
 主从复制，读写分离，分库分表
 
-* [**Amoeba**](http://docs.hexnova.com/amoeba/)
-* [**MySQL Proxy**](http://dev.mysql.com/doc/mysql-proxy/en/)
+- [**Amoeba**](http://docs.hexnova.com/amoeba/)
+- [**MySQL Proxy**](http://dev.mysql.com/doc/mysql-proxy/en/)
 
 
 ## NoSQL 数据库
-* [**Cassandra**](http://cassandra.apache.org/)
-* [**MongoDB**](http://www.mongodb.org/)
-* [**Hadoop & HBase**](http://hbase.apache.org/)
-* [**Riak**](http://basho.com/riak/)
-* [**CouchDB**](http://couchdb.apache.org/)
-* [**Neo4j**](http://neo4j.com/)
+- [**Cassandra**](http://cassandra.apache.org/)
+- [**MongoDB**](http://www.mongodb.org/)
+- [**Hadoop & HBase**](http://hbase.apache.org/)
+- [**Riak**](http://basho.com/riak/)
+- [**CouchDB**](http://couchdb.apache.org/)
+- [**Neo4j**](http://neo4j.com/)
 
 
 ## 分布式消息队列
-* [**RabbitMQ**](https://www.rabbitmq.com/)
-* [**Kafka**](http://kafka.apache.org/)
-* [**ActiveMQ**](http://activemq.apache.org/)
-* [**ZeroMQ**](http://zeromq.org/)
-* [**Kestrel**](https://github.com/twitter/kestrel)
-* [**Gearman**](http://www.gearman.org/)
+- [**RabbitMQ**](https://www.rabbitmq.com/)
+- [**Kafka**](http://kafka.apache.org/)
+- [**ActiveMQ**](http://activemq.apache.org/)
+- [**ZeroMQ**](http://zeromq.org/)
+- [**Kestrel**](https://github.com/twitter/kestrel)
+- [**Gearman**](http://www.gearman.org/)
 
+### 扩展阅读
+- [Queues.io](http://queues.io/) - 该项目汇集整理了目前流行的各种消息队列/任务队列系统
 
 ## 搜索引擎技术
-* [**Lucene**](http://lucene.apache.org/) 及其变种
-    * [**Elasticsearch**](http://www.elasticsearch.org/)
-    * [**Solr**](http://lucene.apache.org/solr/)
-* [**Sphinx Search**](http://sphinxsearch.com/)
-* [**Xapian**](http://xapian.org/)
+- [**Lucene**](http://lucene.apache.org/) 及其变种
+    - [**Elasticsearch**](http://www.elasticsearch.org/)
+    - [**Solr**](http://lucene.apache.org/solr/)
+- [**Sphinx Search**](http://sphinxsearch.com/)
+- [**Xapian**](http://xapian.org/)
+
+### 扩展阅读
+  - [Elasticsearch vs. Sphinx Comparison](http://db-engines.com/en/system/Elasticsearch%3BSphinx)
 
 
-## 网站运行监控
+## 网站/服务运行监控
 
 ### 服务器硬件/系统监控
-* [Nagios](http://www.nagios.org/)
-* [Icinga](https://www.icinga.org/)
-* [Munin](http://munin-monitoring.org/)
-* [Ganglia](http://ganglia.sourceforge.net/)
-* [Cacti](http://www.cacti.net/)
-* [sensu](http://sensuapp.org/)
+- [Nagios](http://www.nagios.org/)
+- [Cacti](http://www.cacti.net/)
+- [Zabbix](http://www.zabbix.com/)
+- [Icinga](https://www.icinga.org/)
+- [Munin](http://munin-monitoring.org/)
+- [Ganglia](http://ganglia.sourceforge.net/)
+- [sensu](http://sensuapp.org/)
 
 ### 日志收集、处理、可视化
-* [logstash](http://logstash.net/)
-* [loggly](https://www.loggly.com/)
-* [papertrail](https://papertrailapp.com/)
-* [Sumo Logic](https://www.sumologic.com/)
-* [Splunk](http://www.splunk.com/)
+- [logstash](http://logstash.net/) - aka. ELK (Elasticsearch, Logstash, Kibana)
+- [Splunk](http://www.splunk.com/) - 商业版，后来者 ELK 的主要假想超越对象
+- [Sentry](https://getsentry.com/) - 
+- [loggly](https://www.loggly.com/)
+- [papertrail](https://papertrailapp.com/)
+- [Sumo Logic](https://www.sumologic.com/)
 
 
 ### 应用/服务可用性监控
-* [New Relic](https://newrelic.com/)
-* [StatusPage](https://www.statuspage.io/)
-* [App Dynamics](http://www.appdynamics.com/)
-* [ruxit](https://www.ruxit.com/)
-* [Datadog](https://www.datadoghq.com/)
-* [Keynote](http://www.keynote.com/)
-* [Pingdom](https://www.pingdom.com/)
-* [Uptime Robot](http://uptimerobot.com/)
-* [Monitority](http://monitority.com/)
-* [监控宝](http://www.jiankongbao.com/)
-* [基调网：听云](http://www.tingyun.com/)
-* [小蜜蜂](http://www.webxmf.com/)
+- APM - Application Performance Monitoring
+    - [New Relic](https://newrelic.com/) 
+    - [听云 - 基调网络](http://www.tingyun.com/)
+    - [OneAPM](https://www.oneapm.com/)
+- 服务或应用当前状态 - Status page for your app or website
+    - [StatusPage](https://www.statuspage.io/)
+    - [Cachet](https://github.com/cachethq/cachet) - PHP 开源版本
+    - [Stashboard](https://github.com/twilio/stashboard) - Python 开源版本
+- [App Dynamics](http://www.appdynamics.com/)
+- [ruxit](https://www.ruxit.com/)
+- [Datadog](https://www.datadoghq.com/)
+- [Keynote](http://www.keynote.com/)
+- [Pingdom](https://www.pingdom.com/)
+- [Uptime Robot](http://uptimerobot.com/)
+- [Monitority](http://monitority.com/)
+- [小蜜蜂](http://www.webxmf.com/)
+- [监控宝](http://www.jiankongbao.com/)
 
 
 ## 分布式服务
+
+
+### 扩展阅读
+
+- [Book: 大型网站技术架构:核心原理与案例分析](http://book.douban.com/subject/25723064/)
