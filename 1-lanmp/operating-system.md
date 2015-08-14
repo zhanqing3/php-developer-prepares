@@ -2,7 +2,7 @@
 
 对于 PHP 开发人员个人而言，用什么操作系统写代码并不重要，重要的是适合，用着顺手、用着爽。。。
 
-> @使用 Windows 的 PHP 开发同学们，鉴于 Windows 命令行窗口（cmd.exe）一如既往、毫无改进的表现，强烈推荐大家使用 [Cmder](http://bliker.github.io/cmder/) 替代之。在中文环境下，Cmder 默认安装完毕后您可能会遇到一些问题，解决办法在此 - [Cmder简单使用小结](https://github.com/Just1n/Posts/blob/master/Cmder%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93.md)
+> @使用 Windows 的 PHP 开发同学们，鉴于 Windows 命令行窗口（cmd.exe）一如既往、毫无改进的表现，强烈推荐大家使用 [Cmder](http://bliker.github.io/cmder/) 替代之。在中文环境下，Cmder 默认安装完毕后您可能会遇到一些问题，解决办法在此 - [Cmder 简单使用小结](https://github.com/Just1n/Posts/blob/master/Cmder%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BB%93.md)
 
 但是，毕竟PHP 程序多数情况都会运行在 Linux 服务器上，因此个人认为每个 PHP 开发人员都应该熟悉 Linux 系统常用操作以及相关 LA/NMP 环境的搭建、配置。
 
@@ -19,7 +19,7 @@
 > **粗体部分** - 个人认为应该多加关注的
 
 * Shell
-    * echo, printf, **test**（Shell 判断条件记不清 -n -z 的时候就靠 ta 了）, sleep, sh, set
+    * echo, printf, **test**（写shell脚本判断条件 -n -z 傻傻分不清楚的时候就靠 ta 了）, sleep, sh, set
 * 用户环境
     * clear, env, export, history, passwd, su, sudo, exit, who
 * 包管理
@@ -42,8 +42,10 @@
 * 远程
     * ssh, scp, sftp, **rsync**（文件同步）
 * 系统状况
-    * uname, free, df, du, top, **htop**（比 top 好用多了）, iftop, iotop, iostat
-    * [**Linux Perf Observability Tools Map**](http://www.brendangregg.com/Perf/linux_observability_tools.png) - 这张图很好的罗列了各种 Linux 性能监测工具，推荐
+    * uname, free, df, du, top, **htop**(比 top 好用多了), iftop, iotop, iostat, isof
+    > ![**Linux Perf Observability Tools Map**](../assets/linux_observability_tools.png)  
+    > 
+    > 该图很好的说明了 Linux 下各种性能监测工具 -- from [Linux perf Examples](http://www.brendangregg.com/perf.html)
 * 其他
     * **man** (查阅命令帮助信息), alias, **ab**（简单性能测试）, service, chkconfig, **ulimit**, **sysctl**
 
