@@ -7,24 +7,27 @@
 
 ## Git
 
+* [Git 简明教程](http://rogerdudler.github.io/git-guide/index.zh.html) - （**推荐**）短小精悍纯干货！如果您是初次接触 Git 想要快速入门，那么强烈推荐您先看这个
+
 ### Git Flow
 
 * [Blog: A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) - 基本上是目前为止最靠谱的 Git Flow 指南了，也可以参考阮一峰老师的解读 - [Blog: Git 分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)
 * [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials) - Atlassian 关于 Git 的教程（**推荐**）。 Comparing Workflows 这个章节介绍了几种常见的 Git 协作形式，[Comparing Workflows 中文翻译：Git 工作流指南](http://blog.jobbole.com/76843/)
+* [LeanCloud 团队的 Git 分支管理规范](http://open.leancloud.cn/git-branch-guide.html) - LeanCloud 的这个开放资源项目逼格很高，里面很多干货，请收下我的膝盖 (逃~
 
 
 ### Github Flow
-
 * [Tutorial: Understanding the GitHub Flow](https://guides.github.com/introduction/flow/index.html) - Github 官方指南 
 * [Blog: Github flow](http://scottchacon.com/2011/08/31/github-flow.html) - [Scott Chacon](http://scottchacon.com/about.html) 在 Github 工作，更是 [《Pro Git Book》](http://git-scm.com/book/en/v2) 作者
 
 
 ### 扩展阅读
-
 * Book: Pro Git Book - 关于 Git 这一本书够了，入门先看前面几章了解基本概念和日常使用
     * [Pro Git 第一版 V1](http://git-scm.com/book/zh/v1)
     * [Pro Git 第二版 V2](http://git-scm.com/book/en/v2)
 * [GitHub Cheatsheet](http://git.io/sheet) - 这个项目整理了许多关于 Github & Git 的小技巧，强烈建议过一下
+* [GotGitHub](http://www.worldhello.net/gotgithub/) - Git 权威指南作者蒋鑫关于 Github 写的开源书
+* Git Rebase - [洁癖者用 Git：pull --rebase 和 merge --no-ff](http://hungyuhei.github.io/2012/08/07/better-git-commit-graph-using-pull---rebase-and-merge---no-ff)
 
 
 ## Subversion/SVN
@@ -99,15 +102,31 @@ svn copy url://repos/ProjectA/trunk url://repos/ProjectA/tags/tagname -m “Crea
 * [Blog: An Introduction to Hgflow](https://andy.mehalick.com/2011/12/24/an-introduction-to-hgflow)
 * [Blog: A Guide to Branching in Mercurial](http://stevelosh.com/blog/2009/08/a-guide-to-branching-in-mercurial/)
 
+
 ## 相关工具
 
-* [TortoiseSVN](http://tortoisesvn.net/) - Subversion client for Windows
-* [TortoiseGit](https://tortoisegit.org) - Git client for Windows
-* [TortoiseHg]() - Mercurial client for Windows, Mac OS and Linux
-* [SmartSVN](http://www.smartsvn.com/) - Subversion client for Mac OS, Windows and Linux
-* [RabbitVCS](http://rabbitvcs.org/) - Subversion, Git & Mercurial client for Linux
-* [Tower](http://www.git-tower.com/) - Git client for Mac OS
-* [Cornerstone](https://www.zennaware.com/cornerstone/) - Subversion client for Mac OS
-* [Versions](http://versionsapp.com/) - Subversion client for Mac OS
-* [SourceTree](http://sourcetreeapp.com/) - Git & Mercurial client for Windows or Mac
-* [More GUI client from git-scm.com](http://git-scm.com/download/gui/linux)
+### 服务端
+* [Gitlab](https://gitlab.com) - 自建 Git 平台的多数都用 ta 啦，Github fork~？
+* [Gogs - Go Git Service](http://gogs.io/) - Go 语言开发的轻量级 Git 管理工具（不喜欢随大流的同学们有福啦~）
+* [VisualSVN](https://www.visualsvn.com/) - Windows 平台下很多人的选择
+* [iF.SVNAdmin](http://svnadmin.insanefactory.com/) - Web 版 SVN 管理工具(PHP)
+* [USVN](http://www.usvn.info/) - Web 版 SVN 管理工具(PHP)
+
+### 客户端
+* 乌龟系列（Windows only）
+    * [TortoiseSVN](http://tortoisesvn.net/) - Subversion client for Windows
+    * [TortoiseGit](https://tortoisegit.org) - Git client for Windows
+    * [TortoiseHg]() - Mercurial client for Windows, Mac OS and Linux
+* Eclipse 系列
+    * [EGit](http://www.eclipse.org/egit/) - Eclipse 中的 Git 插件
+    * [Subclipse](http://subclipse.tigris.org/) - Ecplise 中的 Subversion 插件
+    * [Subversive](http://www.eclipse.org/subversive/) - Eclipse 中的 Subversion 插件
+* [RabbitVCS](http://rabbitvcs.org/) - Linux 下很好用的一款图形客户端，支持 Subversion, Git & Mercurial
+* [GitHub Desktop ](https://desktop.github.com/) - Github 提供的 Git 客户端，提供 Mac OS 和 Windows 版本
+* [SourceTree](http://sourcetreeapp.com/) - Atlassian 提供的同时支持 Mac OS 和 Windows 系统的一款图形客户端，支持 Git & Mercurial
+* [SmartSVN](http://www.smartsvn.com/) - Subversion client for Mac OS, Windows and Linux（专业版收费）
+* [Cornerstone](https://www.zennaware.com/cornerstone/) - Mac OS 下的 SVN 客户端（收费）
+* [Versions](http://versionsapp.com/) - Mac OS 下的 SVN 客户端（收费）
+* [Tower](http://www.git-tower.com/) - Mac OS 平台 Git 客户端（收费）
+* [Wikipedia: Comparison of Subversion clients](https://en.wikipedia.org/wiki/Comparison_of_Subversion_clients)
+* [git-scm: More GUI client from git-scm.com](http://git-scm.com/download/gui)
