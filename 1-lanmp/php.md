@@ -1,5 +1,15 @@
 # PHP
 
+## 各版本主要功能改动
+* PHP 5.3 - namespace, closure
+* PHP 5.4 - trait, short array syntax
+    * http://php.net/manual/en/migration54.new-features.php
+* PHP 5.5 - finally, generator
+    * http://php.net/manual/en/migration55.new-features.php
+* PHP 5.6 - constant expressions, variadic function, argument unpacking, phpdbg
+    * http://php.net/manual/en/migration56.new-features.php
+* PHP 7.0 - Improved **performance**: PHP 7 is up to twice as fast as PHP 5.6, Consistent 64-bit support, Many fatal errors are now Exceptions, Removal of old and unsupported SAPIs and extensions, The null coalescing operator (??), Combined comparison Operator (<=>), Return Type Declarations, Scalar Type Declarations, Anonymous Classes
+    * http://php.net/manual/en/migration70.new-features.php
 
 ## PHP 命令
 
