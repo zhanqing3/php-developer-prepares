@@ -17,17 +17,6 @@
 * [Comparison of document markup languages](https://en.wikipedia.org/wiki/Comparison_of_document_markup_languages)
 * [Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode](http://hyperpolyglot.org/lightweight-markup)
 
-#### Tex
-
-Tex 是由 [Donald Knuth](https://zh.wikipedia.org/wiki/Donald_Knuth) 创造的基于低级编程语言的电子排版系统，利用 TeX 能够对文章进行十分精美的排版，TeX 提供了一套功能强大并且十分灵活的排版语言，同时 TeX 系统是公认的数学公式排得最好的系统。
-
-* LaTeX - LaTeX（发音为“Lah-tech”或“Lay-tech”）是由 [Leslie Lamport](https://zh.wikipedia.org/wiki/Leslie_Lamport) 开发的当今世界上最流行和使用最为广泛的TeX宏集。 把 LaTeX 放到最后是因为除了专业的研究领域，在偏工程/应用类的项目中很少有实际使用。
-
-#### DocBook
-
-* [DocBook](http://www.docbook.org/)，比 HTML 语言还早一年（1992 年）出现的 XML 系标记语言，可以非常方便的生成其他文件格式，比如 HTMl、PDF、CHM 等，开源界使用 DocBook 的项目非常多，比如大家耳熟能详的一些项目，[Linux Kernel](https://www.kernel.org/)、[FreeBSD](http://www.freebsd.org/)、[PostgreSQL](http://www3.uk.postgresql.org/users-lounge/docs/)、[O'Reilly Media](http://www.oreilly.com/)、[OpenStack](http://docs.openstack.org/)，[PHP 的官方文档](http://www.php.net/download-docs.php)也用的它哦，更多项目和组织列表可以[看这里](http://wiki.docbook.org/WhoUsesDocBook)；不过纯 PHP 相关项目使用 Docbook 的较少，毕竟使用 XML 来写文档门槛有点高 :sunglasses:，项目示例，
-    * [PHPUnit Documentation](https://phpunit.de/manual/5.1/en/index.html)，[源码](https://github.com/sebastianbergmann/phpunit-documentation)
-
 #### ReST（reStructuredText）
 
 * [Sphinx Documentation](http://sphinx-doc.org/)，可能是 ReST（reStructuredText） 系的代表项目了吧，Python 开发，由于语法简单、功能强大，非常多的项目都使用 Sphinx 来生成项目文档（[感受下?](http://sphinx-doc.org/examples.html)），跟他一起出现的还有 [Read The Docs](https://readthedocs.org/)（开源文档生成的托管平台和社区，同时支持 reStructuredText 格式以及 Markdown 格式） 这位兄弟，关于他们之间的关系，可以[看下这里](https://coderwall.com/p/vemncg/what-is-the-difference-rest-docutils-sphinx-readthedocs)；相关 PHP 项目示例，
@@ -36,9 +25,22 @@ Tex 是由 [Donald Knuth](https://zh.wikipedia.org/wiki/Donald_Knuth) 创造的�
 
 #### Markdown
 
+由于 [Markdown](http://daringfireball.net/projects/markdown/) 简单易读，只需要普通的文本编辑器就能够编辑，语法更是简单到每个人都可以在数分钟内学会，因此，作为一门 2004 年才被发明出来的轻量级标记语言，Markdown 很快便得到了诸如 [Github](https://github.com)，[reddit](https://www.reddit.com/), [Stack Exchange](http://stackexchange.com/), [Bitbucket](http://sourceforge.net/) 等大量网站的支持。而伴随着 Github 旋风横扫整个开源界， git + Github + Markdown + Jekyll 组合更是成为互联网时代大量科技写作者甚至小部分文艺青年的主力生产力平台。
+
 * [Jekyll](https://jekyllrb.com/) - 不仅仅可以生成静态博客站点，Jekyll 同样适用于文档内容生成，Wista（一家企业视频托管服务提供商）[在这里](http://wistia.com/blog/jekyll-for-documentation)分享了他们基于 Jekyll 的文档管理经验，你可以[点这里先睹为快](http://wistia.com/doc)（[源码](https://github.com/wistia/wistia-doc)）。下面列举了 Jekyll 文档其他相关主题，
     * [Jekyll Documentation Theme](https//github.com/tomjohnson1492/documentation-theme-jekyll/)，示例：[Official Doc](http://idratherbewriting.com/documentation-theme-jekyll)
     * [Jekyll-docs-template](https://github.com/bruth/jekyll-docs-template/)，示例：[Official Doc](http://bruth.github.io/jekyll-docs-template/)，[ModelTree](http://modeltree.harvest.io/ref/lookup-syntax.html)
+
+#### DocBook
+
+* [DocBook](http://www.docbook.org/)，比 HTML 语言还早一年（1992 年）出现的 XML 系标记语言，可以非常方便的生成其他文件格式，比如 HTMl、PDF、CHM 等，开源界使用 DocBook 的项目非常多，比如大家耳熟能详的一些项目，[Linux Kernel](https://www.kernel.org/)、[FreeBSD](http://www.freebsd.org/)、[PostgreSQL](http://www3.uk.postgresql.org/users-lounge/docs/)、[O'Reilly Media](http://www.oreilly.com/)、[OpenStack](http://docs.openstack.org/)，[PHP 的官方文档](http://www.php.net/download-docs.php)也用的它哦，更多项目和组织列表可以[看这里](http://wiki.docbook.org/WhoUsesDocBook)；不过纯 PHP 相关项目使用 Docbook 的较少，毕竟使用 XML 来写文档门槛有点高 :sunglasses:，项目示例，
+    * [PHPUnit Documentation](https://phpunit.de/manual/5.1/en/index.html)，[源码](https://github.com/sebastianbergmann/phpunit-documentation)
+
+#### Tex
+
+[Tex](http://tug.org/) 是由 [Donald Knuth](https://zh.wikipedia.org/wiki/Donald_Knuth) 创造的基于低级编程语言的电子排版系统，利用 TeX 能够对文章进行十分精美的排版，TeX 提供了一套功能强大并且十分灵活的排版语言，同时 TeX 系统是公认的数学公式排得最好的系统。
+
+* [LaTeX](https://latex-project.org/) - LaTeX（发音为“Lah-tech”或“Lay-tech”）是由 [Leslie Lamport](https://zh.wikipedia.org/wiki/Leslie_Lamport) 开发的当今世界上最流行和使用最为广泛的TeX宏集。 把 LaTeX 放到最后是由于 TeX 语法的高门槛，导致除了专业的科学研究、出版领域，除了我们敬仰的那些大神们，在偏工程/应用类的普通码农界中没有真正大规模流行开来。
 
 ### 函数/类的接口说明文档
 
