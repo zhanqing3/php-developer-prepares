@@ -30,6 +30,11 @@
 * [Jekyll](https://jekyllrb.com/) - 不仅仅可以生成静态博客站点，Jekyll 同样适用于文档内容生成，Wista（一家企业视频托管服务提供商）[在这里](http://wistia.com/blog/jekyll-for-documentation)分享了他们基于 Jekyll 的文档管理经验，你可以[点这里先睹为快](http://wistia.com/doc)（[源码](https://github.com/wistia/wistia-doc)）。下面列举了 Jekyll 文档其他相关主题，
     * [Jekyll Documentation Theme](https//github.com/tomjohnson1492/documentation-theme-jekyll/)，示例：[Official Doc](http://idratherbewriting.com/documentation-theme-jekyll)
     * [Jekyll-docs-template](https://github.com/bruth/jekyll-docs-template/)，示例：[Official Doc](http://bruth.github.io/jekyll-docs-template/)，[ModelTree](http://modeltree.harvest.io/ref/lookup-syntax.html)
+* [MkDocs](http://www.mkdocs.org/) - 根据 Markdown 文档生成静态网站，Python 语言开发，
+    * [SlimFramework v2 Doc](http://docs.slimframework.com/) - 个人常用的一个 PHP 轻量级框架，小内核 + Composer 包，可玩性很高~ 类似的可选项还有 [Silex](http://silex.sensiolabs.org/) 和 [Lumen](https://lumen.laravel.com/)
+    * [小米开放平台文档中心](http://dev.xiaomi.com/docs/)
+    * [Flask API Doc](http://www.flaskapi.org/) - 另外一款轻量级 Python Web 开发框架
+* [GitBook](https://github.com/GitbookIO/gitbook) - 除了 Markdown，GitBook 还支持另外一种与 Markdown 很类似但功能更丰富的标记语言 AsciiDoc；GitBook 除了提供基于 node.js 开发的可供本地运行的命令行版本外，还提供了[在线托管服务](https://www.gitbook.com/)。
 
 #### DocBook
 
