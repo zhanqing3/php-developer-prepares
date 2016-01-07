@@ -39,6 +39,16 @@
     * [Peach 文档](https://peachdocs.org/docs) - Peach 官方文档
     * [Gogs 文档](https://gogs.io/docs) - 国人基于 Go 语言开发的类 Gitlab 服务器，界面比较小清新哦~
 
+下面的表格对比了几款支持 Markdown 的主流文档工具之间主要特性的区别（实际区别可能与我所理解的有偏差）：
+
+|名称           |自助托管----|多语言文档|实时同步|静态 HTML |多版本      |
+|:------------:|:---------:|:-------:|:-----:|:--------:|:---------:|
+|Read The Docs |✗          |✓        |✓      |✓         |✓          |
+|Peach         |✓          |✓        |✓      |✓（可缓存）|[计划中](https://peachdocs.org/docs/intro/roadmap)|
+|Mkdocs        |✓          |✗        |✗     |✓         |✗          |
+|GitBook       |✓          |✓        |✓      |✓         |✗          |
+|Jekyll        |✓          |✓（插件） |✓      |✓         |✓（不完美）  |
+
 #### DocBook
 
 * [DocBook](http://www.docbook.org/)，比 HTML 语言还早一年（1992 年）出现的 XML 系标记语言，可以非常方便的生成其他文件格式，比如 HTMl、PDF、CHM 等，开源界使用 DocBook 的项目非常多，比如大家耳熟能详的一些项目，[Linux Kernel](https://www.kernel.org/)、[FreeBSD](http://www.freebsd.org/)、[PostgreSQL](http://www3.uk.postgresql.org/users-lounge/docs/)、[O'Reilly Media](http://www.oreilly.com/)、[OpenStack](http://docs.openstack.org/)，[PHP 的官方文档](http://www.php.net/download-docs.php)也用的它哦，更多项目和组织列表可以[看这里](http://wiki.docbook.org/WhoUsesDocBook)；不过纯 PHP 相关项目使用 Docbook 的较少，毕竟使用 XML 来写文档门槛有点高 :sunglasses:，项目示例，
