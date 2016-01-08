@@ -74,11 +74,13 @@
     * [CakePHP API Docs](http://api.cakephp.org/3.1/)
 
 ### 服务端接口说明文档
-
-* [Apidoc](http://apidocjs.com/), [Demo](http://apidocjs.com/example/) 
-* [Slate](https://github.com/tripit/slate) - 创建好看的 API 文档，Travis-CI, Appium 等公司使用中，更多例子参考：[Examples of Slate in the Wild](https://github.com/tripit/slate#examples-of-slate-in-the-wild)
-* [Apigen](http://www.apigen.org/)
 * [Swagger](http://swagger.io/), [Demo](http://petstore.swagger.wordnik.com/)
+* apiary.io
+* [Apidoc](http://apidocjs.com/), [Demo](http://apidocjs.com/example/) 
+* [Slate](https://github.com/tripit/slate) - 创建好看的 API 文档，Travis-CI, Appium 等项目使用中，更多例子：[Examples of Slate in the Wild](https://github.com/tripit/slate#examples-of-slate-in-the-wild)
 * [JSON-Schema](http://json-schema.org/)
+* [prmd](https://github.com/interagent/prmd) - JSON Schema tools and doc generation for HTTP APIs
+* [如何编写 API 的文档？](http://segmentfault.com/q/1010000002523945)
+
 
 ### 设计相关文档
