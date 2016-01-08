@@ -61,9 +61,17 @@
 * [LaTeX](https://latex-project.org/) - LaTeX（发音为“Lah-tech”或“Lay-tech”）是由 [Leslie Lamport](https://zh.wikipedia.org/wiki/Leslie_Lamport) 开发的当今世界上最流行和使用最为广泛的TeX宏集。 把 LaTeX 放到最后是由于 TeX 语法的高门槛，导致除了专业的科学研究、出版领域，除了我们敬仰的那些大神们，在偏工程/应用类的普通码农界中没有真正大规模流行开来。
 
 ### 函数/类的接口说明文档
-
-* [PHPDoc](http://www.phpdoc.org/)
-* [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
+* [PHPDoc](http://www.phpdoc.org/)，写 PHP 的都应该知道这个哈，嘿嘿。示例，
+    * [Zend Framework 2.4 API Documentation](http://framework.zend.com/apidoc/2.4/)
+    * [Offical Demo with Clean2 theme](http://demo.phpdoc.org/Clean2/)
+* [Sami](https://github.com/FriendsOfPHP/Sami)，Symfony 框架使用的文档生成工具，示例，
+    * [Symfony 3.0 API](http://api.symfony.com/3.0/index.html)
+    * [Composer API](https://getcomposer.org/apidoc/master/index.html)
+* [Doxygen](http://www.stack.nl/~dimitri/doxygen/)，超级老牌文档生成工具了，除了 PHP 外还支持其他 N 种编程语言
+* [phpDox](http://phpdox.de/)
+* [Apigen](http://www.apigen.org/)
+    * [Amazon AWS SDK for PHP 3.x](http://docs.aws.amazon.com/aws-sdk-php/v3/api/)
+    * [CakePHP API Docs](http://api.cakephp.org/3.1/)
 
 ### 服务端接口说明文档
 
