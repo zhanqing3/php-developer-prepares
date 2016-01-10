@@ -52,6 +52,7 @@
 ## 扩展阅读：
 
 * [**鸟哥的 Linux 私房菜**](http://vbird.dic.ksu.edu.tw/) - 简体版，此鸟哥是台湾的 Linux 大神鸟哥，不是 Laruence 鸟哥 :-) ，喜欢原汁原味繁体版的 [请看这里](http://linux.vbird.org/) （当年还没出书的时候偶就看这里了，还顺便知道了一些鸟哥的轶事，比如飞蚊症、服兵役之类的。。。），不喜欢电子版的亦可以 [支持纸质版](http://book.douban.com/subject/4889838/)
+* [Linux工具快速教程](http://linuxtools-rst.readthedocs.org/zh_CN/latest/) - 这本书专注于Linux工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用；
 * [**应该知道的 Linux 技巧**](http://coolshell.cn/articles/8883.html) - Coolshell 陈皓前辈的一些总结，从前辈博客上学到了太多东西。。。 [陈皓前辈更多关于 Linux 的文章](http://coolshell.cn/tag/linux)
 * [**Redhat 系转 Ubuntu 系快速上手**](https://help.ubuntu.com/community/SwitchingToUbuntu/FromLinux/RedHatEnterpriseLinuxAndFedora) -英文， Ubuntu 为了抢用户也是拼了 :-)
 * [**知乎： Linux 坑之 - Linux 下为何要关闭 SELinux？**](http://www.zhihu.com/question/20559538) - 保持 SELinux 默认开启的情况下，你在开发过程中可能会遇到各种诡异问题，除非贵司对安全性有异常高的要求且有专业运维人员，个人还是建议装完系统就直接关闭 SELinux。
