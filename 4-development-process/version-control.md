@@ -8,6 +8,7 @@
 ## Git
 
 * [Git 简明教程](http://rogerdudler.github.io/git-guide/index.zh.html) - （**推荐**）短小精悍纯干货！如果您是初次接触 Git 想要快速入门，那么强烈推荐您先看这个
+* [Git 提交的正确姿势：Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html) - （**推荐**）阮一峰老师最新出品，虽然讲的 Git，个人认为同样适用其他版本管理系统
 
 ### Git Flow
 
