@@ -75,7 +75,7 @@
 
 ### 服务端接口说明文档
 * [Swagger](http://swagger.io/), [Demo](http://petstore.swagger.wordnik.com/)
-* apiary.io
+* [Apiary](https://apiary.io) - （**推荐**）Apiary.io平台具有协同设计、即时API模拟、快速生成源码、自动测试和代码调试的开源设计工具，最重要的是可以在线模拟测试，因为该平台具备模拟服务器测试服务，可以把设计好的程序在线测试、验证。
 * [Apidoc](http://apidocjs.com/), [Demo](http://apidocjs.com/example/) 
 * [Slate](https://github.com/tripit/slate) - 创建好看的 API 文档，Travis-CI, Appium 等项目使用中，更多例子：[Examples of Slate in the Wild](https://github.com/tripit/slate#examples-of-slate-in-the-wild)
 * [JSON-Schema](http://json-schema.org/)
