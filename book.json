@@ -1,1 +1,17 @@
-{}
+{
+  "plugins": [
+    "github-buttons", "ga"
+  ],
+  "pluginsConfig": {
+    "github-buttons": {
+      "repo": "zacao/php-developer-prepares",
+      "types": [
+        "star",
+        "watch"
+      ]
+    },
+    "ga": {
+        "token": "UA-72298378-1"
+    }
+  }
+}
