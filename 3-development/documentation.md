@@ -12,9 +12,11 @@
 
 ### 使用指南、手册等说明文档
 
-此类文档内容多以大段文字说明为主，一般按章节进行内容组织，随着项目的不断成熟、演进，很多成熟项目的文档都会有相当篇幅；于此同时，出于格式、排版等需求，逐步形成了多种标记语言标准，常见的比如 TeX, AsciiDoc, DocBook, HTML, Markdown, reStructuredText 等。
+此类文档内容多以大段文字说明为主，一般按章节进行内容组织，随着项目的不断成熟、演进，很多成熟项目的文档都会有相当篇幅；于此同时，出于格式、排版等需求，逐步形成了多种标记语言标准，常见的比如 TeX, DocBook, Markdown, reStructuredText, AsciiDoc 等。目前互联网项目中主要流行 Markdown, reStructuredText, AsciiDoc 等轻量级标记语言，Tex、DocBook 过于复杂，reStructuredText 主要在 Python 开发者中流行，Org-mode 主要以 Emacs 用户为主，Markdown 最为流行（由于 Markdown 过于简单，目前几大组织/公司分别定义了自己的 Markdown 扩展语法，比如 GitHub Flavored Markdown，MultiMarkdown，Markdown Extra，Pandoc Markdown 等）。
+
 扩展阅读：
 * [Comparison of document markup languages](https://en.wikipedia.org/wiki/Comparison_of_document_markup_languages)
+* [Lightweight markup language](https://en.wikipedia.org/wiki/Lightweight_markup_language) - 其中有好几种都是 Markdown 的方言；毛主席教导我们要辩证的去看问题，多种方言同时出现一方面反映出以简为美起家的 Markdown 是如此流行，另一方面也显示出 Markdown 扩展语法标准混乱的无奈。
 * [Lightweight Markup: Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode](http://hyperpolyglot.org/lightweight-markup)
 
 #### ReST（reStructuredText）
@@ -35,6 +37,7 @@
     * [小米开放平台文档中心](http://dev.xiaomi.com/docs/)
     * [Flask API Doc](http://www.flaskapi.org/) - 另外一款轻量级 Python Web 开发框架
 * [GitBook](https://github.com/GitbookIO/gitbook) - 除了 Markdown，GitBook 还支持另外一种与 Markdown 很类似但功能更丰富的标记语言 AsciiDoc；GitBook 除了提供基于 node.js 开发的可供本地运行的命令行版本外，还提供了[在线托管服务](https://www.gitbook.com/)。
+    * [GitBook Multi-Languages support](http://help.gitbook.com/format/languages.html)
 * [Peach](https://peachdocs.org/) - 国人基于 Go 语言开发的一款支持多语言、实时同步以及全文搜索功能的 Web 文档服务器。赞一个~，使用示例，
     * [Peach 文档](https://peachdocs.org/docs) - Peach 官方文档
     * [Gogs 文档](https://gogs.io/docs) - 国人基于 Go 语言开发的类 Gitlab 服务器，界面比较小清新哦~
@@ -49,9 +52,16 @@
 |GitBook       |✓          |✓        |✓      |✓         |✗          |
 |Jekyll        |✓          |✓（插件） |✓      |✓         |✓（不完美）  |
 
+#### AsciiDoc
+
+[AsciiDoc](http://asciidoc.org/) 最初基于 Python 开发，其基本语法跟 Markdown 类似，例如以 = 开头作为标题、以 * 号开头作为列表项等，详细的语法说明可以[看这里](http://powerman.name/doc/asciidoc)，但 AsciiDoc 比 Markdown 支持更多的格式，比如表格、文件包含等，同时 AsciiDoc 是 O'Reilly 的 [Atlas 在线出版平台](http://chimera.labs.oreilly.com/) 的推荐语言，相当大部分的 [Git 官方文档](https://git.wiki.kernel.org/index.php/AsciiDoc)都使用了 AsciiDoc 格式。
+
+扩展阅读：
+* [AsciiDoctor](http://asciidoctor.org/) - 2013 年发布，是 AsciiDoc 基于 Ruby 语言的实现，主要[在 GitHub 使用](http://asciidoctor.org/news/2013/01/30/asciidoc-returns-to-github/)。
+
 #### DocBook
 
-* [DocBook](http://www.docbook.org/)，比 HTML 语言还早一年（1992 年）出现的 XML 系标记语言，可以非常方便的生成其他文件格式，比如 HTMl、PDF、CHM 等，开源界使用 DocBook 的项目非常多，比如大家耳熟能详的一些项目，[Linux Kernel](https://www.kernel.org/)、[FreeBSD](http://www.freebsd.org/)、[PostgreSQL](http://www3.uk.postgresql.org/users-lounge/docs/)、[O'Reilly Media](http://www.oreilly.com/)、[OpenStack](http://docs.openstack.org/)，[PHP 的官方文档](http://www.php.net/download-docs.php)也用的它哦，更多项目和组织列表可以[看这里](http://wiki.docbook.org/WhoUsesDocBook)；不过纯 PHP 相关项目使用 Docbook 的较少，毕竟使用 XML 来写文档门槛有点高 :sunglasses:，项目示例，
+* [DocBook](http://www.docbook.org/) 比 HTML 语言还早一年（1992 年）出现的 XML 系标记语言，可以非常方便的生成其他文件格式，比如 HTMl、PDF、CHM 等，开源界使用 DocBook 的项目非常多，比如大家耳熟能详的一些项目，[Linux Kernel](https://www.kernel.org/)、[FreeBSD](http://www.freebsd.org/)、[PostgreSQL](http://www3.uk.postgresql.org/users-lounge/docs/)、[O'Reilly Media](http://www.oreilly.com/)、[OpenStack](http://docs.openstack.org/)，[PHP 的官方文档](http://www.php.net/download-docs.php)也用的它哦，更多项目和组织列表可以[看这里](http://wiki.docbook.org/WhoUsesDocBook)；不过纯 PHP 相关项目使用 Docbook 的较少，毕竟使用 XML 来写文档门槛有点高 :sunglasses:，项目示例，
     * [PHPUnit Documentation](https://phpunit.de/manual/5.1/en/index.html)，[源码](https://github.com/sebastianbergmann/phpunit-documentation)
 
 #### Tex
@@ -72,6 +82,7 @@
 * [Apigen](http://www.apigen.org/)
     * [Amazon AWS SDK for PHP 3.x](http://docs.aws.amazon.com/aws-sdk-php/v3/api/)
     * [CakePHP API Docs](http://api.cakephp.org/3.1/)
+
 
 ### 服务端接口说明文档
 * [Swagger](http://swagger.io/), [Demo](http://petstore.swagger.wordnik.com/)
