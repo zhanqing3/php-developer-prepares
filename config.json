@@ -1,0 +1,8 @@
+{
+    "name": "PHP 开发者实践",
+    "introduction":"作者为坚持了5年的创业项目做出的整理与总结。",
+     "path": {
+     "images": "assets",
+     "toc": "SUMMARY.md"
+     }
+}
