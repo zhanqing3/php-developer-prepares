@@ -27,6 +27,6 @@ DiaoSi 互联网创业起步，
 ## 资源
 
  * [PHP: The Right Way](https://github.com/codeguy/php-the-right-way), [中文版](http://laravel-china.github.io/php-the-right-way/)
- * [PHP Best Practices](https://phpbestpractices.org/)
+ * [PHP Best Practices](https://phpbestpractices.org/), [中文版](http://phpbestpractices.justjavac.com/)
 
 > 强烈建议您直接过一遍上面内容，这样这里的大部分您都可以快速略过，不过我们按照软件开发流程顺序对内容进行组织，同时会有穿插一些中国特色的问题及处理方法 :-) 
